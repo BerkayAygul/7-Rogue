@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Player_Bullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player_Layer
+  - Enemy_Layer
+  - VFX_Layer
+  - Enemy_Bullet_Layer
+  - Player_Bullet_Layer
+  - Breakable_Object_Layer
+  - Pickup_Layer
+  - Ground_Layer
+  - Room_Controller_Layer
+  - Room_Layout_Layer
+  - Splatter_Layer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground_Layer
+    uniqueID: 1187150411
+    locked: 0
+  - name: Objects_Layer
+    uniqueID: 2139569801
+    locked: 0
+  - name: Splatter_Layer
+    uniqueID: 3552363005
+    locked: 0
+  - name: Pickup_Layer
+    uniqueID: 964101327
+    locked: 0
+  - name: Broken_Objects_Layer
+    uniqueID: 417105805
+    locked: 0
+  - name: VFX_Layer
+    uniqueID: 473506789
+    locked: 0
+  - name: Enemy_Layer
+    uniqueID: 692498291
+    locked: 0
+  - name: Bullet_Layer
+    uniqueID: 3635769251
+    locked: 0
+  - name: Player_Layer
+    uniqueID: 3548483245
+    locked: 0

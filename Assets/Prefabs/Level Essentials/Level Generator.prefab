@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4797005756145829489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4797005756145829491}
+  - component: {fileID: 4797005756145829488}
+  m_Layer: 15
+  m_Name: Level Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4797005756145829491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797005756145829489}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4797005756498235828}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4797005756145829488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797005756145829489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c43e1ba97358479e6c08c40b6edc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LayoutOda: {fileID: 9159610741846491797, guid: 6249075c84ac0314da2dc07f3aad1cda, type: 3}
+  BaslangicRengi: {r: 0, g: 0.9529412, b: 1, a: 1}
+  BitisRengi: {r: 1, g: 0, b: 0, a: 1}
+  ShopRengi: {r: 1, g: 0.8980392, b: 0, a: 1}
+  SandikOdasiRengi: {r: 0.6039216, g: 0.6039216, b: 0.6039216, a: 1}
+  OlusturulacakOdaSayisi: 15
+  OdaOlusturmaNoktasi: {fileID: 4797005756498235828}
+  SeciliOlanYon: 0
+  XKoordinatiOffset: 18
+  YKoordinatiOffset: 10
+  LayoutOdaLayer:
+    serializedVersion: 2
+    m_Bits: 32768
+  OutlineOdalar:
+    TekliGirisYukari: {fileID: 2333943770670180959, guid: b1b8f1bb2cf75234eb3a362769659819, type: 3}
+    TekliGirisAsagi: {fileID: 750582231094817673, guid: f9f0a8bc6156b5747bc96eece156bf01, type: 3}
+    TekliGirisSag: {fileID: 3105924504536106519, guid: 3dc6fb0a6ab4bb74bbdeac17d80a9363, type: 3}
+    TekliGirisSol: {fileID: 6644868237632442916, guid: ba1675cf98b3db648bab75266ecc5d55, type: 3}
+    IkiliGirisYukariAsagi: {fileID: 2445895524209933117, guid: 4d08c2a4c897c9b4ebeefe056129bfa2, type: 3}
+    IkiliGirisSolSag: {fileID: 2180555829638361534, guid: e638d75645dc1f543b084c849570a973, type: 3}
+    IkiliGirisAsagiSag: {fileID: 2011857568597411983, guid: f884b9002c9d98841bf73ee35ac986b8, type: 3}
+    IkiliGirisAsagiSol: {fileID: 8942273225071528471, guid: 7cf0dbd9e20e0f94298a4645256dcc85, type: 3}
+    IkiliGirisYukariSol: {fileID: 2261857102808268853, guid: 93b1507b3e40c7f4c886b7cd84217eda, type: 3}
+    IkiliGirisYukariSag: {fileID: 4052090929145451745, guid: b5a7d2852cbffc046aed4abbb18ed9f9, type: 3}
+    UcluGirisYukariAsagiSag: {fileID: 325850670650425191, guid: 6809978177a3c7f40941c0c3817b1dca, type: 3}
+    UcluGirisYukariAsagiSol: {fileID: 8908535000215399473, guid: fd4a3d33c4d89084d9ef6dbecf5971d3, type: 3}
+    UcluGirisAsagiSolSag: {fileID: 6815565796441635510, guid: b7794729b74129445a2905608326a57f, type: 3}
+    UcluGirisYukariSolSag: {fileID: 4777516777947697230, guid: 03d4898db68835843a79290856e2346f, type: 3}
+    DortluGirisYukariAsagiSagSol: {fileID: 582334795000194413, guid: 1312b9e59a3440e4e8e7143fc710c167, type: 3}
+  BaslangicOdasiMerkezi: {fileID: 790306892665759631, guid: afcba24381bfd2d4eb3c2a6171f0c513, type: 3}
+  BitisOdasiMerkezi: {fileID: 1911960865418119747, guid: b7292a2443167a7408f2946092d51693, type: 3}
+  ShopOdasiMerkezi: {fileID: 6811189114341466135, guid: 9b53dc7dd601bb048888f957720c6665, type: 3}
+  SandikOdasiMerkezi: {fileID: 7518191057422941104, guid: 7f260f75a44196f41804afe305e0bdca, type: 3}
+  OlasiOdaMerkezleri:
+  - {fileID: 4480163099929401062, guid: 66bde22869e4b974ab4125e722ff4e51, type: 3}
+  - {fileID: 5205968316117195423, guid: ede9f555892c12848af3ce03e13a378f, type: 3}
+  - {fileID: 7320427541257386520, guid: 4fcb5768ef373cc42882c33eea3ad59c, type: 3}
+  - {fileID: 4415207947420956073, guid: cf0b36c91b2036d4cbd7a61b7d61ac0b, type: 3}
+  - {fileID: 8741468753422569932, guid: a1803707b2d4d984884a1ab260f88470, type: 3}
+  ShopEklenilsinMi: 1
+  ShopaOlanMinMesafe: 3
+  ShopaOlanMaxMesafe: 7
+  SandikOdasiEklenilsinMi: 1
+  SandikOdasinaOlanMinMesafe: 5
+  SandikOdasinaOlanMaxMesafe: 6
+--- !u!1 &4797005756498235829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4797005756498235828}
+  m_Layer: 0
+  m_Name: Generation Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4797005756498235828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797005756498235829}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4797005756145829491}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
